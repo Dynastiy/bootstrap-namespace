@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="my-namespace-html-div my-namespace-dropdown">
+        <button class="my-namespace-html-button my-namespace-btn my-namespace-btn-default my-namespace-dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Dropdown
+          <span class="my-namespace-html-span my-namespace-caret"></span>
+        </button>
+        <ul class="my-namespace-html-ul my-namespace-dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li class="my-namespace-html-li"><a class="my-namespace-html-a" href="#">Action</a></li>
+            <li class="my-namespace-html-li"><a class="my-namespace-html-a" href="#">Another action</a></li>
+            <li class="my-namespace-html-li"><a class="my-namespace-html-a" href="#">Something else here</a></li>
+            <li class="my-namespace-html-li my-namespace-divider" role="separator"></li>
+            <li class="my-namespace-html-li"><a class="my-namespace-html-a" href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+        BOOTSTRAP_NAMESPACE = 'my-namespace';
+    </script>
+    <script src="node_modules/bootstrap-sass-namespace/assets/javascripts/bootstrap.min.js"></script>
+</body>
+
+</html>
